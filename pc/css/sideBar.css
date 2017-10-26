@@ -1,0 +1,14 @@
+/*
+左侧容器样式
+ */
+ #left{
+    position: fixed;
+    width: 170px;
+    border:1px solid  red;
+    height: calc(100% - 60px);
+    top: 60px;
+    z-index: 10;
+    overflow-y: auto;
+    float: left;
+  }
+  
