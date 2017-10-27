@@ -90,7 +90,7 @@ define(function () {
      */
     mod.initFrameWork = function () {
         mod.loadHtml('head', '/template/common/head.html');
-        mod.loadHtml('left', '/template/common/left.html');
+        mod.loadHtml('footer', '/template/common/footer.html');
     };
 
     /**

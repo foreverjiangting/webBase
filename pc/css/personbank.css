@@ -1,0 +1,227 @@
+/* body{
+	position: relative;
+}
+body:after{
+	content: "";
+	position: absolute;top: 0;left: 0;
+	display: block;width: 100%;height: 3000px;
+	background: url( "./test/08.jpg") top center no-repeat;
+	opacity: 0.5;
+}  */
+
+/*----------------- 横线---------------- */
+.main{
+    width: 100%;
+    height: 838px;
+    border-top:2px solid #ffda44;
+}
+
+/* ---------------退出部分------------------ */
+.nav-right img{
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top:-1px;
+    right: 97px;
+}
+.nav-right a{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    right:-25px;
+    font-size: 14px;
+}
+.nav-right span{
+    margin-right: 20px;
+    font-size: 14px;
+    color:#ffd277;
+}
+.nav-right em{
+    color: #000;
+}
+
+
+/* ---------------------内容部分------------- */
+.content{
+    width: 100%;
+    height: 470px;
+    margin-top: 40px;
+    margin-bottom:100px;;
+    }
+.content-info{
+   height: 470px;
+   width: 200px;
+   float: left;
+   position: relative;
+}
+.content-info ul li{
+    width: 200px;
+    height: 48px;
+    line-height: 43px;
+    text-align: center;
+    background-color:rgb(250,250,250);
+    border: 1px solid rgb(230,230,230);
+    margin:-1px 0 0 -2px;
+   
+}
+.content-info ul li a.info-ziti{
+    color:rgb(120,120,120);
+    font-size: 16px;
+    display: block;
+    width: 197px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 3px solid #ffda44;
+    margin-top: 8px;
+    color: #ffc145;
+    }
+
+.content-pic{
+    width: 200px;
+    height: 270px;
+}
+.content-pic img{
+    width: 200px;
+    height: 230px;
+    margin-top:43px;
+}
+
+.content-indent{
+    width: 990px;
+    height: 470px;
+    float: left;
+    margin-left: 10px;
+} 
+.content-ID{
+     width: 988px;
+     height: 50px;
+     line-height: 40px;
+     background-color:rgb(250,250,250);
+     border: 1px solid rgb(230,230,230);
+     margin-top:-1px;
+     }
+ .content-ID span:first-child{
+      text-align: left;
+      margin-left:28px;
+      color:rgb(50,50,50);
+      font-size: 20px;
+      line-height: 48px;
+ }   
+ .content-ID span:nth-child(2){
+      float: right;
+      margin:5px 30px 0 0;
+      color:rgb(50,50,50);
+      font-size: 14px;
+ }  
+
+ .content-tab{
+      margin:-1px 0;
+      width: 988px;
+      height: 417px;
+      border: 1px solid rgb(230,230,230);
+ }
+ .content-tab ul {
+     width: 930px;
+     height: 60px;
+     background-color:#fafafa; 
+      margin:5px 30px 0;
+}
+  .content-tab ul:first-child{
+      margin:50px 30px 0;
+  }  
+.content-tab ul li{
+    float:left;
+    width: 300px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+.content-tab ul li img{
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    left: 35px;
+    top: 12px;
+}
+.content-tab ul li span{
+    color:rgb(180,180,180);
+    font-size: 16px;
+    margin-right:60px;
+    line-height:55px;
+ }
+.content-tab ul li:first-child span{
+    color:rgb(57,57,57);
+}
+.content-tab ul li span.ziti{
+    font-size: 14px;
+    margin-left: 56px;
+}
+.content-tab ul li span.icon-zi{
+    font-size: 14px;
+    width: 200px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left:130px;
+    color: #999;
+}
+
+#incon{
+    display: block;
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
+    border-radius: 50px;
+    background-color: rgb(255,220,70);
+    margin:18px 0 0 216px;
+    color: #000;
+   }
+ .content-tab ul li:nth-child(3) span{
+   display: block;
+   width: 130px;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 50px;
+   border: 1px solid rgb(255,195,65);
+   font-size: 14px;
+   margin:15px 0 0 170px;
+   color: #ffc145;
+}
+.content-tab ul li:nth-child(3) span a{
+     color:rgb(255,195,65);
+}
+
+/* -----------------------尾部修改部分-------------------------------- */
+.footer-left .footer-txt ul li{
+    margin-top: 38px;
+  }
+  .footer-left .footer-txt ul li a{
+    font-size: 14px;
+  }
+  .footer-left .footer-txt ul li span{
+    margin:0 18px;
+  }
+  .footer-left .footer-txt ul li:nth-child(5){
+    margin-left: 70px;
+  }
+  .footer-left .footer-txt{
+    height: 80px;
+  }
+  .footer-rightPic{
+    margin-left:120px;
+    margin-top:20px;
+  }
+  .footer-right img{
+    width: 100px;
+    height: 100px;
+  }
+  .footer-rightPic span{
+    margin: 4px 0 0 -20px;
+  }
+  .footer-right .footer-login{
+    margin-top:40px;
+  }

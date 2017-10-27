@@ -1,0 +1,163 @@
+/* body{
+	position: relative;
+}
+body:after{
+	content: "";
+	position: absolute;top: 0;left: 0;
+	display: block;width: 100%;height: 3000px;
+	background: url( "./test/07.jpg") top center no-repeat;
+	opacity: 0.5;
+}  */
+
+/*----------------- 横线---------------- */
+.main{
+    width: 100%;
+    height: 800px;
+    border-top:2px solid #ffda44;
+}
+
+/* ---------------退出部分------------------ */
+.nav-right img{
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top:-1px;
+    right: 97px;
+}
+.nav-right a{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    right:-25px;
+    font-size: 14px;
+}
+.nav-right span{
+    margin-right: 20px;
+    font-size: 14px;
+    color:#ffd277;
+}
+.nav-right em{
+    color: #000;
+}
+
+
+/* ---------------------内容部分------------- */
+.content{
+    width: 100%;
+    height: 470px;
+    margin-top: 40px;
+    margin-bottom:100px;;
+    }
+.content-info{
+   height: 470px;
+   width: 200px;
+   float: left;
+   position: relative;
+}
+.content-info span.info-ziti {
+   position: absolute;
+   display: block;
+   width: 197px;
+   height: 30px;
+   border-left: 3px solid #ffda44;
+   top: 107px;
+   left: 0;
+}
+
+.content-info ul li{
+    width: 200px;
+    height: 48px;
+    line-height: 43px;
+    text-align: center;
+    background-color:rgb(250,250,250);
+    border: 1px solid rgb(230,230,230);
+    margin:-1px 0 0 -2px;
+   
+}
+.content-info ul li a{
+    color:rgb(120,120,120);
+    font-size: 16px;
+}
+.content-indent{
+    width: 990px;
+    height: 470px;
+    float: left;
+    margin-left: 10px;
+} 
+.content-ID{
+     width: 988px;
+     height: 50px;
+     line-height: 40px;
+     background-color:rgb(250,250,250);
+     border: 1px solid rgb(230,230,230);
+     margin-top:-1px;
+     }
+ .content-ID span:first-child{
+      text-align: left;
+      margin-left:28px;
+      color:#333;
+      font-size: 20px;
+      line-height: 48px;
+ }   
+ .content-ID span:nth-child(2){
+      float: right;
+      margin:5px 30px 0 0;
+      color:rgb(50,50,50);
+      font-size: 14px;
+ }  
+
+ .content-tab{
+      margin:-1px 0;
+      width:988px;
+      height:417px;
+      border:1px solid rgb(230,230,230);
+      position:relative;
+ }
+.content-p1{
+     width:280px;
+     height:235px;
+     position:absolute;
+     top:40px;
+     left:460px;
+}
+.content-p2{
+     width: 155px;
+     height: 245px;
+     position: absolute;
+     top: 100px;
+     left: 250px;
+}   
+
+
+/* -----------------------尾部修改部分-------------------------------- */
+.footer-left .footer-txt ul li{
+    margin-top: 38px;
+  }
+  .footer-left .footer-txt ul li a{
+    font-size: 14px;
+  }
+  .footer-left .footer-txt ul li span{
+    margin:0 18px;
+  }
+  .footer-left .footer-txt ul li:nth-child(5){
+    margin-left: 70px;
+  }
+  .footer-left .footer-txt{
+    height: 80px;
+  }
+  .footer-rightPic{
+    margin-left:120px;
+    margin-top:20px;
+  }
+  .footer-right img{
+    width: 100px;
+    height: 100px;
+  }
+  .footer-rightPic span{
+    margin: 4px 0 0 -20px;
+  }
+  .footer-right .footer-login{
+    margin-top:40px;
+  }

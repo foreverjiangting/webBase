@@ -1,9 +1,9 @@
 //默认页面管理
 
-define(function () {
+define(function() {
 
     var mod = {};
-    mod.initContent = function () {
+    mod.initContent = function() {
 
 
     };

@@ -1,0 +1,237 @@
+/*----------------- 横线---------------- */
+.main{
+    width: 100%;
+    height: 838px;
+    border-top:2px solid #ffda44;
+}
+
+/* ---------------退出部分------------------ */
+.nav-right img{
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    top:-1px;
+    right: 97px;
+}
+.nav-right a{
+    display: block;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 1px;
+    right:-25px;
+    font-size: 14px;
+}
+.nav-right span{
+    margin-right: 20px;
+    font-size: 14px;
+    color:#ffd277;
+}
+.nav-right em{
+    color: #000;
+}
+
+/* ---------------------内容部分------------- */
+.content{
+    width: 100%;
+    height: 470px;
+    margin-top: 40px;
+    margin-bottom:100px;;
+    }
+.content-info{
+   height: 470px;
+   width: 200px;
+   float: left;
+   position: relative;
+}
+
+.content-info ul li{
+    width: 200px;
+    height: 48px;
+    line-height: 43px;
+    text-align: center;
+    background-color:rgb(250,250,250);
+    border: 1px solid rgb(230,230,230);
+    margin:-1px 0 0 -2px;
+   
+}
+.content-info ul li a.info-ziti{
+    color:rgb(120,120,120);
+    font-size: 16px;
+    display: block;
+    width: 197px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 3px solid #ffda44;
+    margin-top: 8px;
+    color: #ffc145;
+    }
+
+.content-pic{
+    width: 200px;
+    height: 270px;
+}
+.content-pic img{
+    width: 200px;
+    height: 230px;
+    margin-top:43px;
+}
+
+.content-indent{
+    width: 990px;
+    height: 610px;
+    float: left;
+    margin-left: 10px;
+} 
+.content-ID{
+     width: 988px;
+     height: 50px;
+     line-height: 40px;
+     background-color:rgb(250,250,250);
+     border: 1px solid rgb(230,230,230);
+     margin-top:-1px;
+     }
+ .content-ID span:first-child{
+      text-align: left;
+      margin-left:28px;
+      color:rgb(50,50,50);
+      font-size: 20px;
+      line-height: 48px;
+ }   
+.content-tab{
+      margin:-1px 0;
+      width: 988px;
+      height: 558px;
+      border: 1px solid rgb(230,230,230);
+ }
+.content-search{
+      width: 302px;
+      height: 50px;
+      float: right;
+      margin:5px 30px 0 0;
+ }
+ .content-search input{
+     width: 240px;
+     height: 30px;
+     border: 1px solid #ffda44;
+     text-indent: 15px;
+     font-size: 12px;
+     color:#999;
+   
+ }
+ .content-search a{
+     display: block;
+     float: right;
+     width: 60px;
+     height: 34px;
+     background-color:#ffda44;
+     text-align: center;
+     line-height: 30px;
+     margin-top:5px;
+     font-size: 16px;
+     color:#333;
+ }
+.content-txt{
+     width: 930px;
+     height: 558px;
+     margin: 0 auto;
+}
+ .tabone{
+     width: 100%;
+     height: 60px;
+}
+.tabone p{
+    font-size: 14px;
+    font-weight: 700;
+    color:#333;
+    line-height: 68px;
+} 
+.tabone p span{
+    color:#ffc145;
+}
+.tabtwo{
+    width: 930px;
+    height: 450px;
+}
+.tabtwo table{
+    width: 930px;
+    height: 450px;
+}
+.tabtwo table tr td{
+    width: 116px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    color:#999;
+    font-size: 14px;
+}
+.tabtwo table tr{
+    border-bottom: 1px solid #e5e5e5;
+    
+}
+.tabtwo table tr:first-child{
+    background-color:#ffeca1; 
+    border-top: 1px solid #666;
+    font-size: 14px;
+}
+.tabtwo table tr td:last-child{
+    color: #ff7d45;
+}
+.tabtwo table tr:first-child td{
+    color:#333; 
+}
+.tabthree{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.tabnumber{
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+}
+.tabthree a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    color: #333;
+}
+.tabthree a:first-child{
+    background-color:#ffda44;
+}
+
+
+
+/* -----------------------尾部修改部分-------------------------------- */
+.footer-left .footer-txt ul li{
+    margin-top: 38px;
+  }
+  .footer-left .footer-txt ul li a{
+    font-size: 14px;
+  }
+  .footer-left .footer-txt ul li span{
+    margin:0 18px;
+  }
+  .footer-left .footer-txt ul li:nth-child(5){
+    margin-left: 70px;
+  }
+  .footer-left .footer-txt{
+    height: 80px;
+  }
+  .footer-rightPic{
+    margin-left:120px;
+    margin-top:20px;
+  }
+  .footer-right img{
+    width: 100px;
+    height: 100px;
+  }
+  .footer-rightPic span{
+    margin: 4px 0 0 -20px;
+  }
+  .footer-right .footer-login{
+    margin-top:40px;
+  }

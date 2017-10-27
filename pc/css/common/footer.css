@@ -1,0 +1,124 @@
+/*
+尾部侧容器样式
+ */
+
+#footer {
+    width: 100%;
+    height: 200px;
+}
+
+.ft_contain {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #f7f7f7;
+    border-top: 1px solid #ccc;
+    bottom: 0px;
+}
+
+.footer-left {
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+}
+
+.footer-left .footer-txt {
+    height: 100px;
+}
+
+.footer-left .footer-txt ul {
+    height: 100px;
+}
+
+.footer-left .footer-txt ul li {
+    float: left;
+    margin-top: 49px;
+}
+
+.footer-left .footer-txt ul li a {
+    color: #666;
+    font-size: 16px;
+}
+
+.footer-left .footer-txt ul li span {
+    margin: 0 8px;
+    color: #666;
+}
+
+.footer-left .footer-txt ul li:nth-child(5) {
+    margin-left: 38px;
+}
+
+.footer-left .footer-pic {
+    height: 100px;
+    margin-top: 3px;
+}
+
+.footer-left .footer-pic ul {
+    height: 100px;
+}
+
+.footer-left .footer-pic ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer-left .footer-pic ul li:nth-child(5) {
+    margin: 0 5px 0 13px;
+}
+
+.footer-left .footer-pic ul li:first-child {
+    margin-left: 0;
+}
+
+.footer-right {
+    height: 200px;
+    float: right;
+    margin-right: 40px;
+}
+
+.footer-rightPic {
+    width: 120px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+}
+
+.footer-right img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer-rightPic span {
+    display: block;
+    font-size: 14px;
+    color: rgb(181, 181, 181);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-right .footer-login {
+    width: 170px;
+    height: 40px;
+    float: right;
+    margin-top: 60px;
+}
+
+.footer-right .footer-login p {
+    width: 170px;
+    height: 40px;
+    color: #333;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.footer-right .footer-login img {
+    margin-left: 10px;
+    width: 160px;
+    height: 40px;
+}

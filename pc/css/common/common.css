@@ -1,0 +1,18 @@
+.container {
+    min-width: 1200px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container #head {
+    height: 100px;
+}
+
+.container #rightContent {
+    height: calc(100% - 300px);
+}
+
+.container #footer {
+    height: 200px;
+}
