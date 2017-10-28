@@ -3,18 +3,21 @@
     <div class="contain">
         <div class="p_content">
             <div class="content-info">
-                <ul>
+                <ul class="p_navBar">
+                    <li class="relation">
+                        <a href="#" data-index="c1" onclick="lab.showPanel('p_navBar',this)">个人信息</a>
+                    </li>
                     <li>
-                        </span><a class="info-ziti" href="">个人信息</a></li>
-                    <li><a href="">我的订单</a></li>
-                    <li><a href="">微信绑定</a></li>
+                        <a href="#" data-index="c2" onclick="lab.showPanel('p_navBar',this)"> 我的订单</a>
+                    </li>
+                    <li><a href="#" data-index="c3" onclick="lab.showPanel('p_navBar',this)">微信绑定</a></li>
                     <li><a href="">常见问题</a></li>
                 </ul>
                 <div class="content-pic">
                     <img src="./images/content/Img/person-05_03.jpg" alt="">
                 </div>
             </div>
-            <div class="content-indent">
+            <div class="content-indent c1">
                 <div class="content-ID">
                     <span>个人信息</span>
                     <span>欢迎你 ! ID_0009</span>
@@ -41,8 +44,8 @@
                         <li>
                             <span class="ziti">实名认证可提升个人账户安全</span>
                         </li>
-                        <li>
-                            <span id="incon">已认证</span>
+                        <li class="goTo">
+                            <span><a href="javascript:;" onclick="lab.loadpage('rightContent','./template/personname.html')">立即实名认证</a></span>
                         </li>
                     </ul>
                     <ul>
@@ -54,8 +57,8 @@
                         <li>
                             <span class="ziti">用于重置密码或其它安全验证</span>
                         </li>
-                        <li>
-                            <span><a href="">更改绑定手机</a></span>
+                        <li class="goTo">
+                            <span><a href="javascript:;" onclick="lab.loadpage('rightContent','./template/personphone.html')" >更改绑定手机</a></span>
                         </li>
                     </ul>
                     <ul>
@@ -66,13 +69,169 @@
                         <li>
                             <span class="ziti">用于保护账号信息和登录安全</span>
                         </li>
-                        <li>
-                            <span><a href="">修改登录密码</a></span>
+                        <li class="goTo">
+                            <span><a href="javascript:;" onclick="lab.loadpage('rightContent','./template/personloginpass.html')">修改登录密码</a></span>
                         </li>
                     </ul>
 
                 </div>
             </div>
+            <div class="content-indent c2" style="display:none;">
+                <div class="content-ID">
+                    <span>我的订单</span>
+                    <div class="content-search">
+                        <input type="text" placeholder="输入关键字 , 如充值卡号">
+                        <a href="">搜索</a>
+                    </div>
+                </div>
+                <div class="content-tab">
+                    <div class="content-txt">
+                        <div class="tabone">
+                            <p>总兑换面值 ：
+                                <span>1000.00</span> 元，总成功金额：
+                                <span>882.00</span> 元，总失败金额：
+                                <span>100.00</span> 元</p>
+                        </div>
+                        <div class="tabtwo">
+                            <table>
+                                <tr>
+                                    <td>订单号</td>
+                                    <td>提交时间</td>
+                                    <td>充值卡类型</td>
+                                    <td>充值卡卡号</td>
+                                    <td>实际面值</td>
+                                    <td>提现面值</td>
+                                    <td>订单状态</td>
+                                    <td>成功金额</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换中</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>电信充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>移动充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>移动充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换失败</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>移动充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                                <tr>
+                                    <td>1234567</td>
+                                    <td>2017-10-16</td>
+                                    <td>联通充值卡</td>
+                                    <td>1234567897</td>
+                                    <td>100元</td>
+                                    <td>98元</td>
+                                    <td>兑换成功</td>
+                                    <td>98元</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="tabthree">
+                            <div class="tabnumber">
+                                <a href="">1</a>
+                                <a href="">2</a>
+                                <a href="">3</a>
+                                <a href="">4</a>
+                                <a href="">5</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-indent c3" style="display:none;">
+                <div class="content-ID">
+                    <span>微信绑定</span>
+                    <span>欢迎你 ! ID_0009</span>
+                </div>
+
+                <div class="content-tab">
+                    <div class="content-p1"><img src="./images/content/Img/aaa_03.png" alt=""></div>
+                    <div class="content-p2"><img src="./images/content/Img/aaa_06.jpg" alt=""></div>
+                </div>
+            </div>
+
+            <!-- 内容结束 -->
         </div>
     </div>
 </div>

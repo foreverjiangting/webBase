@@ -24,15 +24,18 @@
     margin: -1px 0 0 -2px;
 }
 
-.content-info ul li a.info-ziti {
+.content-info ul .relation {
     color: rgb(120, 120, 120);
     font-size: 16px;
     display: block;
     width: 197px;
-    height: 30px;
-    line-height: 30px;
+    height: 48px;
+    line-height: 48px;
     border-left: 3px solid #ffda44;
-    margin-top: 8px;
+    color: #ffc145;
+}
+
+.content-info ul .relation a {
     color: #ffc145;
 }
 
@@ -120,13 +123,34 @@
     line-height: 55px;
 }
 
-.content-tab ul li:first-child span {
+
+/* .content-tab ul li:first-child span {
     color: rgb(57, 57, 57);
-}
+} */
 
 .content-tab ul li span.ziti {
     font-size: 14px;
     margin-left: 56px;
+}
+
+.goTo {
+    width: 130px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.goTo span a {
+    background-color: #fff;
+    border: 1px solid rgb(255, 195, 65);
+    color: rgb(255, 195, 65);
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-top: 15px;
 }
 
 .content-tab ul li span.icon-zi {
@@ -151,7 +175,8 @@
     color: #000;
 }
 
-.content-tab ul li:nth-child(3) span {
+
+/* .content-tab ul li:nth-child(3) span {
     display: block;
     width: 130px;
     height: 30px;
@@ -164,4 +189,4 @@
 
 .content-tab ul li:nth-child(3) span a {
     color: rgb(255, 195, 65);
-}
+} */
