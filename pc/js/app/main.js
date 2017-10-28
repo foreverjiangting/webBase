@@ -17,7 +17,12 @@ lab.loadpage = function(id, pageName, _this) {
         core.loadHtml(id, pageName);
     });
 }
-
+lab.isShow = function(showClassName, hideClassName, _this) {
+    $(".m_card").find("li").removeClass("relation");
+    $(_this).parent("li").addClass("relation");
+    $("." + showClassName).css("display", "none");
+    $("." + hideClassName).css("display", "block");
+};
 // 运行
 $(function() {
     require(['core'], function(core) {
