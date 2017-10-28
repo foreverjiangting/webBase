@@ -1,12 +1,12 @@
 /**
  * 公共基础模块
  */
-define(function () {
+define(function() {
     var mod = {};
     /**
      * doT 初始化
      */
-    mod.doTinit = function () {
+    mod.doTinit = function() {
         //配置定界符
         doT.templateSettings = {
             evaluate: /\[\%([\s\S]+?)\%\]/g,
@@ -27,7 +27,7 @@ define(function () {
      *  host url
      * @returns {string}
      */
-    mod.hosturl = function () {
+    mod.hosturl = function() {
         // 服务地址
         var hosturl = (location.origin + location.pathname) || (location.protocol + '//' + location.hostname + (location.port == 80 ? '' : ':' + location.port + location.pathname));
         return hosturl;
@@ -35,8 +35,8 @@ define(function () {
     /**
      * 时间格式化
      */
-    mod.formatDate = function () {
-        Date.prototype.format = function (format) {
+    mod.formatDate = function() {
+        Date.prototype.format = function(format) {
             if (!format) {
                 format = "yyyy-MM-dd hh:mm:ss";
             }
@@ -71,24 +71,24 @@ define(function () {
     /**
      * console重写，解决IE 等浏览器兼容性问题
      */
-    mod.ReConsole = function () {
-        window.console = window.console || (function () {
+    mod.ReConsole = function() {
+        window.console = window.console || (function() {
             var c = {};
-            c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function () { };
+            c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function() {};
             return c;
         })();
 
     };
 
     //导入html
-    mod.loadHtml = function (Id, FileName) {
+    mod.loadHtml = function(Id, FileName) {
         $('#' + Id).load(mod.hosturl() + FileName);
     };
 
     /**
      * 初始化结构
      */
-    mod.initFrameWork = function () {
+    mod.initFrameWork = function() {
         mod.loadHtml('head', '/template/common/head.html');
         mod.loadHtml('footer', '/template/common/footer.html');
     };
@@ -99,7 +99,7 @@ define(function () {
      * @param value
      * @param expiredays （过期天数）
      */
-    mod.setCookie = function (c_name, value, expiredays) {
+    mod.setCookie = function(c_name, value, expiredays) {
         var exdate = new Date();
         exdate.setDate(exdate.getDate() + expiredays);
         document.cookie = c_name + "=" + escape(value) + ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString());
@@ -110,7 +110,7 @@ define(function () {
      * @param c_name
      * @returns {string}
      */
-    mod.getCookie = function (c_name) {
+    mod.getCookie = function(c_name) {
         if (document.cookie.length > 0) {
             c_start = document.cookie.indexOf(c_name + "=");
             if (c_start != -1) {

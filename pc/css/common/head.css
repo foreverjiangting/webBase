@@ -73,7 +73,7 @@ body {
     margin-right: 13px;
 }
 
-#one {
+.current {
     background: #ffda44;
     border-radius: 50px;
 }

@@ -265,30 +265,30 @@ b {
     margin: 152px 0 0 0px;
 }
 
-.content-pic {
+.pcontent-pic {
     height: 250px;
     width: 100%;
     text-align: center;
 }
 
-.content-pic ul {
+.pcontent-pic ul {
     width: 100%;
     height: 150px;
     margin-top: 2px;
 }
 
-.content-pic ul li {
+.pcontent-pic ul li {
     width: 360px;
     height: 140px;
     float: left;
     background: #f7f7f7;
 }
 
-.content-pic ul li:nth-child(2) {
+.pcontent-pic ul li:nth-child(2) {
     margin: -3px 60px;
 }
 
-.content-pic ul li img {
+.pcontent-pic ul li img {
     display: block;
     padding-top: 25px;
     width: 96px;
@@ -296,12 +296,12 @@ b {
     margin: -2px 134px;
 }
 
-.content-pic ul li:nth-child(3) img {
+.pcontent-pic ul li:nth-child(3) img {
     width: 84px;
     height: 90px;
 }
 
-.content-pic ul li img:nth-child(3) {
+.pcontent-pic ul li img:nth-child(3) {
     margin: -2px 131px;
 }
 
@@ -325,7 +325,7 @@ b {
     margin: 0 60px;
 }
 
-.content-login .content-pic1 {
+.content-login .pcontent-pic1 {
     width: 32px;
     height: 15px;
     position: absolute;
@@ -333,7 +333,7 @@ b {
     left: 368px;
 }
 
-.content-login .content-pic2 {
+.content-login .pcontent-pic2 {
     width: 32px;
     height: 15px;
     position: absolute;

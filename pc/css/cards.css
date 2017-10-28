@@ -1,135 +1,120 @@
+.cards_content {
+    width: 100%;
+}
 
-/* body{
-	position: relative;
-}
-body:after{
-	content: "";
-	position: absolute;top: 0;left: 0;
-	display: block;width: 100%;height: 3000px;
-	background: url( "./test/test2.jpg") top center no-repeat;
-	opacity: 0.5;
-} */
-.nav-right img{
-    width: 15px;
-    height: 17px;
-    position: absolute;
-    top: 0;
-    right: 30px;
-}
-.nav-right a{
-    width: 40px;
-    height: 30px;
-    position: absolute;
-    top: -1px;
-    right:-20px;
-}
-.nav-hx{
-    width: 100%;
-    height: 100px;
-    border-bottom:2px solid #ffda44;
-} 
-#one{
-    background:#ffda44;
-	border-radius: 50px;
-}
-.content{
-    width: 100%;
-}
-.content-rate{
+.content-rate {
     width: 100%;
     height: 280px;
 }
-.content p{
+
+.cards_content p {
     width: 100%;
     height: 65px;
     line-height: 83px;
     font-size: 20px;
-    color:rgb(120,120,120);
+    color: rgb(120, 120, 120);
 }
-table{
-    border: 1px solid rgb(245,245,245);
-    width: 1200px;
+
+.c_table,
+.c_weixin {
+    margin: 0px 40px;
+}
+
+table {
+    border: 1px solid rgb(245, 245, 245);
     height: 170px;
-   
+    width: 100%;
 }
-th{
-    background-color:#feeba0;
-    color:#333;
+
+th {
+    background-color: #feeba0;
+    color: #333;
     height: 40px;
     line-height: 41px;
     font-size: 14px;
     width: 300px;
 }
-td{
-     border:1px solid rgb(245,245,245);
-     text-align: center;
-     line-height: 35px;
-     color: rgb(150,150,150);
-     width: 300px;
-     font-size: 14px;
+
+td {
+    border: 1px solid rgb(245, 245, 245);
+    text-align: center;
+    line-height: 35px;
+    color: rgb(150, 150, 150);
+    width: 300px;
+    font-size: 14px;
 }
 
-.content h3{
-     width: 100%;
-     height: 35px;
-     font-size: 20px;
-     line-height: 35px;
-     color:rgb(120,120,120);
- }
-
-td span{
-     margin: 0 5px;
+.cards_content h3 {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgb(120, 120, 120);
 }
-.weixin{
+
+td span {
+    margin: 0 5px;
+}
+
+.weixin {
     height: 500px;
     width: 100%;
-    background-color:rgb(245,245,245);
+    background-color: rgb(245, 245, 245);
     overflow: hidden;
- }   
-.weixin-a{
+}
+
+.weixin-a {
     margin-left: 90px;
     width: 100%;
     height: 70px;
 }
-.weixin .weixin-a:first-child{
-     margin-top:30px; 
+
+.weixin .weixin-a:first-child {
+    margin-top: 30px;
 }
-.weixin-a li{
+
+.weixin-a li {
     float: left;
     width: 150px;
     height: 50px;
 }
-.weixin-a li:first-child{
-      color:rgb(104,104,104);
-      text-align: center;
-      line-height: 60px; 
+
+.weixin-a li:first-child {
+    color: rgb(104, 104, 104);
+    text-align: center;
+    line-height: 60px;
 }
- #weixin-b{
-       line-height: 20px;
+
+#weixin-b {
+    line-height: 20px;
 }
-.weixin-a input[type="text"]{
-     width: 300px;
-     height: 30px;
-}  
-#weixin-c{
+
+.weixin-a input[type="text"] {
+    width: 300px;
+    height: 30px;
+}
+
+#weixin-c {
     line-height: 35px;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     width: 160px;
     height: 40px;
-    background-color:rgb(255,218,68);  
+    background-color: rgb(255, 218, 68);
     margin-left: 130px;
 }
-.content-txt{
-    width: 1198px;
+
+.content-txt {
     height: 60px;
-    border: 1px solid rgb(225,225,225);
-    background-color: rgb(245,245,245);
-    margin-bottom:200px;
+    border: 1px solid rgb(225, 225, 225);
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 200px;
 }
-.content-txt p{
+
+.content-txt p {
     font-size: 14px;
-    color: rgb(145,145,145);
+    color: rgb(145, 145, 145);
     text-align: center;
-    line-height:60px;
+    line-height: 60px;
 }

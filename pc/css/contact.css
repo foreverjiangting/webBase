@@ -9,60 +9,72 @@ body:after{
 	opacity: 0.5;
 }  */
 
-.box{
+.box {
     width: 100%;
-    height: 697px;
-    border-top:2px solid #ffda44;
+    height: 997px;
 }
-.main{
-    width:100%;
-    height:700px;
+
+.main {
+    width: 1200px;
+    height: 700px;
     margin-top: 40px;
-    overflow: hidden; 
-  }
-  .main-l{
-    width:198px;
-    height:455px;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-l {
+    height: 455px;
     float: left;
-  }
-  .main-l-tab{
-    width:100%;
-    height:200px;
+}
+
+.main-l-tab {
+    width: 100%;
+    height: 200px;
     background-color: #fcfcfc;
     box-sizing: border-box;
     border: 1px solid #ccc;
     position: relative;
     background-color: #fff;
-  }
-  .main-l-tab ul{
+}
+
+.main-l-tab ul {
     width: 100%;
     height: 196px;
-  }
-  .main-l-tab li{
+}
+
+.main-l-tab li {
     text-indent: 40px;
     height: 49px;
     line-height: 50px;
     background-color: #fcfcfc;
     overflow: hidden;
-   }
-   .main-l-tab li:nth-child(2), .main-l-tab li:nth-child(3){
-     background-color:#fff
-   }
-   .main-l-tab li:first-child span{
-          position: absolute;
-          top: 25px;
-          right:15px;
-          width: 20px;
-          height: 2px;
-          display: block;
-          background-color: #666;
-  }
-.main-l-tab li a{
-     color: rgb(51,51,51);
-     font-size: 16px;
-   }
-   .main-l-tab li a.relation{
-    color:rgb(120,120,120);
+}
+
+.main-l-tab li:nth-child(2),
+.main-l-tab li:nth-child(3) {
+    background-color: #fff
+}
+
+.main-l-tab li:first-child span {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: #666;
+}
+
+.main-l-tab li a {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+}
+
+.main-l-tab li a.relation {
+    color: rgb(120, 120, 120);
     font-size: 16px;
     display: block;
     width: 196px;
@@ -71,144 +83,164 @@ body:after{
     line-height: 30px;
     border-left: 2px solid #ffda44;
     color: #ffc145;
-   } 
-  .main-l-tab li:last-child{
-    border-top: 1px solid #ccc;
-  }
+}
 
-  .main-l-pic{
+.main-l-tab li:last-child {
+    border-top: 1px solid #ccc;
+}
+
+.main-l-pic {
     width: 100%;
-    height:231px;
+    height: 231px;
     margin-top: 31px;
     box-sizing: border-box;
+}
 
-   }
-  .main-l-pic div:first-child{
-     width: 200px;
-     height: 230px;
-  }
-  .main-l-pic div>img{
+.main-l-pic div:first-child {
     width: 200px;
     height: 230px;
-  }
-  .main-l-pic p{
-    color:#000;
+}
+
+.main-l-pic div>img {
+    width: 200px;
+    height: 230px;
+}
+
+.main-l-pic p {
+    color: #000;
     font-size: 14px;
     margin-top: 10px;
-  }
-  .main-l-tab p span{
-     display: block;
-     width: 20px;
-     height: 2px;
-     background-color:#666; 
-     position: absolute;
-     top: 24px;
-     left: 160px;
 }
-  .main-r{
-    width: 990px;
-    height:457px;
-    background:#fcfcfc;
+
+.main-l-tab p span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #666;
+    position: absolute;
+    top: 24px;
+    left: 160px;
+}
+
+.main-r {
+    height: 457px;
+    background: #fcfcfc;
     border: 1px solid #ccc;
     padding: 0 19px;
     box-sizing: border-box;
     float: right;
-    float: right;
-  }
-  .main-r-explain{
+}
+
+.main-r-explain {
     float: left;
     display: none;
-  }
-  .main-r-explain>p,
-  .main-r-us>p
-  {
-    color:#333;
-    height:50px;
+}
+
+.main-r-explain>p,
+.main-r-us>p {
+    color: #333;
+    height: 50px;
     line-height: 60px;
     text-indent: 10px;
     border-bottom: 1px solid #ccc;
     font-size: 14px;
     font-weight: 700;
-  }
-  .main-r-explain .text{
-    margin-top:36px;
-    height:950px;
-  
-  }
-  .main-r-explain .text>div{
+}
+
+.main-r-explain .text {
+    margin-top: 36px;
+    height: 950px;
+}
+
+.main-r-explain .text>div {
     margin-top: 40px;
-  }
-  .main-r-explain .text>div p{
+}
+
+.main-r-explain .text>div p {
     font-size: 14px;
-    color:rgb(120,120,120);  
-  }
-  .main-r-explain .text>div p:nth-child(1){
+    color: rgb(120, 120, 120);
+}
+
+.main-r-explain .text>div p:nth-child(1) {
     font-weight: 700;
-    height:30px;
-  }
-  
-  .main-r-us div{
-    margin:6px 0 0 11px;
-  }
-  .main-r-us .intro{
-    height:220px;
+    height: 30px;
+}
+
+.main-r-us div {
+    margin: 6px 0 0 11px;
+}
+
+.main-r-us .intro {
+    height: 220px;
     margin: 0 0 0 8px;
     overflow: hidden;
-  }
-  .intro div:first-child{
+}
+
+.intro div:first-child {
     width: 80px;
     width: 930px;
     margin-top: 32px;
     line-height: 22px;
-  }
+}
 
-  .intro div span,
-  .tel span{
-    color:#666;
-    font-size:14px;
-    }
-  .intro div span:first-child{
+.intro div span,
+.tel span {
+    color: #666;
+    font-size: 14px;
+}
+
+.intro div span:first-child {
     font-weight: 700;
     font-size: 14px;
-    
-  }
-  .intro p{
-    margin-bottom: 10px;
-    color:rgb(120,120,120);
-    font-size:14px;
-  }
-  .main-r-us .tel{
-    margin-top:30px
-  }
+}
 
- 
-  /* -----------------------尾部修改部分-------------------------------- */
-  .footer-left .footer-txt ul li{
-    margin-top: 40px;
-  }
-  .footer-left .footer-txt ul li a{
+.intro p {
+    margin-bottom: 10px;
+    color: rgb(120, 120, 120);
     font-size: 14px;
-  }
-  .footer-left .footer-txt ul li span{
-    margin:0 16px;
-  }
-  .footer-left .footer-txt ul li:nth-child(5){
+}
+
+.main-r-us .tel {
+    margin-top: 30px
+}
+
+
+/* -----------------------尾部修改部分-------------------------------- */
+
+.footer-left .footer-txt ul li {
+    margin-top: 40px;
+}
+
+.footer-left .footer-txt ul li a {
+    font-size: 14px;
+}
+
+.footer-left .footer-txt ul li span {
+    margin: 0 16px;
+}
+
+.footer-left .footer-txt ul li:nth-child(5) {
     margin-left: 74px;
-  }
-  .footer-left .footer-txt{
+}
+
+.footer-left .footer-txt {
     height: 80px;
-  }
-  .footer-rightPic{
-    margin-left:120px;
-    margin-top:20px;
-  }
-  .footer-right img{
+}
+
+.footer-rightPic {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.footer-right img {
     width: 100px;
     height: 100px;
-  }
-  .footer-rightPic span{
+}
+
+.footer-rightPic span {
     margin: 4px 0 0 -20px;
-  }
-  .footer-right .footer-login{
-    margin-top:40px;
-  }
+}
+
+.footer-right .footer-login {
+    margin-top: 40px;
+}

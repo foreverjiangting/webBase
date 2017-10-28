@@ -8,10 +8,13 @@ require.config({
 
 var lab = {};
 
-lab.loadpage = function(pageName) {
+lab.loadpage = function(id, pageName, _this) {
     require(['core'], function(core) {
+        //将当前点击的置为高亮
+        $(".hightNavBar").find("li").removeClass("current");
+        $(_this).parent("li").addClass("current");
         $("#rightContent").html("");
-        core.loadHtml('rightContent', pageName);
+        core.loadHtml(id, pageName);
     });
 }
 
